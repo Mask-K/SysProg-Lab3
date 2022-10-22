@@ -1,4 +1,40 @@
+< #include <iostream> > : < preprocessor directive >
+< using > : < keyword >
+< namespace > : < keyword >
+< std > : < identifier >
+< ; > : < punctuation >
 < int > : < keyword >
-< main > : < error >
-< ~ > : < operator >
-< char > : < error >
+< main > : < keyword >
+< ( > : < punctuation >
+< ) > : < punctuation >
+< { > : < punctuation >
+< 123abss > : < error >
+< int > : < keyword >
+< a > : < identifier >
+< = > : < operator >
+< 5 > : < number >
+< ; > : < punctuation >
+< int > : < keyword >
+< b > : < identifier >
+< ; > : < punctuation >
+< // check if integer bigger than 0 > : < comment >
+< if > : < keyword >
+< ( > : < punctuation >
+< a > : < identifier >
+< ) > : < punctuation >
+< b > : < identifier >
+< = > : < operator >
+< "okay" > : < string constant >
+< ; > : < punctuation >
+< else > : < keyword >
+< b > : < identifier >
+< = > : < operator >
+< false > : < keyword >
+< cout > : < identifier >
+< << > : < operator >
+< b > : < identifier >
+< ; > : < punctuation >
+< return > : < keyword >
+< 0 > : < number >
+< ; > : < punctuation >
+< } > : < punctuation >
